@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\APIStreamingUTHG1.WebAPI.props" />
+</Project>
