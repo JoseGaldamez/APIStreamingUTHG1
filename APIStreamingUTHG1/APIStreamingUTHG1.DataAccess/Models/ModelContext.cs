@@ -131,11 +131,11 @@ public partial class ModelContext : DbContext
                 .HasColumnName("COSTO_MENSUAL");
             entity.Property(e => e.CreatedAt)
                 .HasMaxLength(30)
-                .IsUnicode(false)
+                .IsUnicode(false).IsRequired(false)
                 .HasColumnName("CREATED_AT");
             entity.Property(e => e.CreatedBy)
                 .HasMaxLength(30)
-                .IsUnicode(false)
+                .IsUnicode(false).IsRequired(false)
                 .HasColumnName("CREATED_BY");
             entity.Property(e => e.Descripcion)
                 .HasMaxLength(100)
@@ -147,15 +147,15 @@ public partial class ModelContext : DbContext
                 .HasColumnName("NOMBRE_PLAN");
             entity.Property(e => e.Status)
                 .HasMaxLength(1)
-                .IsUnicode(false)
+                .IsUnicode(false).IsRequired(false)
                 .HasColumnName("STATUS");
             entity.Property(e => e.UpdatedAt)
                 .HasMaxLength(30)
-                .IsUnicode(false)
+                .IsUnicode(false).IsRequired(false)
                 .HasColumnName("UPDATED_AT");
             entity.Property(e => e.UpdatedBy)
                 .HasMaxLength(30)
-                .IsUnicode(false)
+                .IsUnicode(false).IsRequired(false)
                 .HasColumnName("UPDATED_BY");
         });
 
@@ -424,6 +424,7 @@ public partial class ModelContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("SYS_C0010404");
         });
+
 
         OnModelCreatingPartial(modelBuilder);
     }
