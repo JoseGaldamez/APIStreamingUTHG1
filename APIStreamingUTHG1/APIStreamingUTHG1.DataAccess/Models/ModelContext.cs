@@ -108,10 +108,6 @@ public partial class ModelContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("YEAR_LANZAMIENTO");
 
-            entity.HasOne(d => d.IdRegionNavigation).WithMany(p => p.Peliculas)
-                .HasForeignKey(d => d.IdRegion)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_PELICULAS_REGIONES");
         });
 
         
@@ -187,6 +183,26 @@ public partial class ModelContext : DbContext
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("PAIS");
+            entity.Property(e => e.Status)
+                .HasMaxLength(1)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("STATUS");
+            entity.Property(e => e.UpdatedAt)
+                .HasMaxLength(30)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("UPDATED_AT");
+            entity.Property(e => e.UpdatedBy)
+                .HasMaxLength(30)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("UPDATED_BY");
+            entity.Property(e => e.CreatedAt)
+                .HasMaxLength(30)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("CREATED_AT");
+            entity.Property(e => e.CreatedBy)
+                .HasMaxLength(30)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("CREATED_BY");
         });
 
         
@@ -260,10 +276,6 @@ public partial class ModelContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("YEAR_LANZAMIENTO");
 
-            entity.HasOne(d => d.IdRegionNavigation).WithMany(p => p.Series)
-                .HasForeignKey(d => d.IdRegion)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_SERIES_REGIONES");
         });
 
         modelBuilder.Entity<Suscripcione>(entity =>

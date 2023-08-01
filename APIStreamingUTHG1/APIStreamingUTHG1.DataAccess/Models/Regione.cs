@@ -15,7 +15,14 @@ public partial class Regione
 
     public string Idioma { get; set; } = null!;
 
-    public virtual ICollection<Pelicula> Peliculas { get; set; } = new List<Pelicula>();
+    public string? CreatedAt { get; set; } = null!;
 
-    public virtual ICollection<Series> Series { get; set; } = new List<Series>();
+    public string? CreatedBy { get; set; } = null!;
+
+    public string? UpdatedAt { get; set; } = null!;
+
+    public string? UpdatedBy { get; set; } = null!;
+
+    public string? Status { get; set; } = null!;
+
 }
