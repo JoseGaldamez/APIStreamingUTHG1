@@ -29,6 +29,8 @@ public partial class ModelContext : DbContext
 
     public virtual DbSet<ValoracionesYComentario> ValoracionesYComentarios { get; set; }
 
+    public virtual DbSet<Contenido> Contenidos { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 // optionsBuilder.UseOracle("User Id=UTH20230201;Password=UTH20230201;Data Source=173.249.59.89:1521/ORCLCDB;");
@@ -287,7 +289,7 @@ public partial class ModelContext : DbContext
             entity.Property(e => e.IdSuscipcion)
                 .ValueGeneratedOnAdd()
                 .HasColumnType("NUMBER(38)")
-                .HasColumnName("ID_SUSCIPCION");
+                .HasColumnName("ID_SUSCRIPCION");
             entity.Property(e => e.CreatedAt)
                 .HasMaxLength(30)
                 .IsUnicode(false)
@@ -431,10 +433,81 @@ public partial class ModelContext : DbContext
                 .HasForeignKey(d => d.IdSerie)
                 .HasConstraintName("SYS_C0010406");
 
-            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.ValoracionesYComentarios)
-                .HasForeignKey(d => d.IdUsuario)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("SYS_C0010404");
+        });
+
+        modelBuilder.Entity<Contenido>(entity =>
+        {
+            entity.HasKey(e => e.IdContenido).HasName("SYS_C0010372");
+
+            entity.ToTable("CONTENIDOS");
+
+            entity.Property(e => e.IdContenido)
+                .ValueGeneratedOnAdd()
+                .HasColumnType("NUMBER(38)")
+                .HasColumnName("ID_CONTENIDO");
+            entity.Property(e => e.TipoContenido)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("TIPO_CONTENIDO");
+            entity.Property(e => e.Titulo)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("TITULO");
+            entity.Property(e => e.Genero)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("GENERO");
+            entity.Property(e => e.YearLanzamiento)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("YEAR_LANZAMIENTO");
+            entity.Property(e => e.Descripcion)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("DESCRIPCION");
+            entity.Property(e => e.Director)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("DIRECTOR");
+            entity.Property(e => e.Duracion)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("DURACION");
+            entity.Property(e => e.Calificaciones)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("CALIFICACIONES");
+            entity.Property(e => e.Clasificaciones)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("CLASIFICACION");
+            entity.Property(e => e.IdRegion)
+                .HasColumnType("NUMBER(38)")
+                .HasColumnName("ID_REGION");
+            entity.Property(e => e.CreatedAt)
+                .HasMaxLength(30)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("CREATED_AT");
+            entity.Property(e => e.CreatedBy)
+                .HasMaxLength(30)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("CREATED_BY");
+            entity.Property(e => e.Descripcion)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("DESCRIPCION");
+            entity.Property(e => e.Status)
+                .HasMaxLength(1)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("STATUS");
+            entity.Property(e => e.UpdatedAt)
+                .HasMaxLength(30)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("UPDATED_AT");
+            entity.Property(e => e.UpdatedBy)
+                .HasMaxLength(30)
+                .IsUnicode(false).IsRequired(false)
+                .HasColumnName("UPDATED_BY");
         });
 
 

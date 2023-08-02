@@ -17,13 +17,13 @@ public partial class Suscripcione
 
     public string? EstadoPago { get; set; }
 
-    public string CreatedAt { get; set; } = null!;
+    public string? CreatedAt { get; set; } = null!;
 
-    public string CreatedBy { get; set; } = null!;
+    public string? CreatedBy { get; set; } = null!;
 
-    public string UpdatedAt { get; set; } = null!;
+    public string? UpdatedAt { get; set; } = null!;
 
-    public string UpdatedBy { get; set; } = null!;
+    public string? UpdatedBy { get; set; } = null!;
 
-    public string Status { get; set; } = null!;
+    public string? Status { get; set; } = null!;
 }
