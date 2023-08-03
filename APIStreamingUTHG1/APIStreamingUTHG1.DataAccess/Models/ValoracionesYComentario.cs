@@ -9,9 +9,7 @@ public partial class ValoracionesYComentario
 
     public decimal IdUsuario { get; set; }
 
-    public decimal? IdPelicula { get; set; }
-
-    public decimal? IdSerie { get; set; }
+    public decimal IdContenido { get; set; }
 
     public string? Comentario { get; set; }
 
@@ -19,19 +17,14 @@ public partial class ValoracionesYComentario
 
     public decimal? Valoracion { get; set; }
 
-    public string CreatedAt { get; set; } = null!;
+    public string? CreatedAt { get; set; } = null!;
 
-    public string CreatedBy { get; set; } = null!;
+    public string? CreatedBy { get; set; } = null!;
 
     public string? UpdatedAt { get; set; }
 
     public string? UpdatedBy { get; set; }
 
-    public string Status { get; set; } = null!;
+    public string? Status { get; set; } = null!;
 
-    public virtual Pelicula? IdPeliculaNavigation { get; set; }
-
-    public virtual Series? IdSerieNavigation { get; set; }
-
-    public virtual User IdUsuarioNavigation { get; set; } = null!;
 }

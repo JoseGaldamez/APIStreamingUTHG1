@@ -1,0 +1,12 @@
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\bin\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.deps.json
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\bin\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\bin\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.pdb
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.csproj.AssemblyReference.cache
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.AssemblyInfoInputs.cache
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.AssemblyInfo.cs
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\refint\APIStreamingUTHG1.DataAccess.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\APIStreamingUTHG1.DataAccess.pdb
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.DataAccess\obj\Release\net6.0\linux-x64\ref\APIStreamingUTHG1.DataAccess.dll

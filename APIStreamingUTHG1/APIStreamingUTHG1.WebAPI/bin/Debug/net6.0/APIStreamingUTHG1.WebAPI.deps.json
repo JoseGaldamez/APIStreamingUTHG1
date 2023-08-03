@@ -10,7 +10,8 @@
         "dependencies": {
           "APIStreamingUTHG1.DataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9",
-          "Swashbuckle.AspNetCore": "6.5.0"
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0"
         },
         "runtime": {
           "APIStreamingUTHG1.WebAPI.dll": {}

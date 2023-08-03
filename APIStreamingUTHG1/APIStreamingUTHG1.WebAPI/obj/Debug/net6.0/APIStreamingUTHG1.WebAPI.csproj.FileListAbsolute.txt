@@ -20,14 +20,10 @@ C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Oracle.EntityFrameworkCore.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
-C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
@@ -57,7 +53,6 @@ C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\APIStreamingUTHG1.WebAPI.AssemblyInfoInputs.cache
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\APIStreamingUTHG1.WebAPI.AssemblyInfo.cs
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\APIStreamingUTHG1.WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\APIStreamingUTHG1.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\APIStreamingUTHG1.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.APIStreamingUTHG1.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.APIStreamingUTHG1.WebAPI.props
@@ -73,3 +68,8 @@ C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\APIStreamingUTHG1.WebAPI.pdb
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\APIStreamingUTHG1.WebAPI.genruntimeconfig.cache
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\ref\APIStreamingUTHG1.WebAPI.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Debug\net6.0\APIStreamingUTHG1.WebAPI.MvcApplicationPartsAssemblyInfo.cs
