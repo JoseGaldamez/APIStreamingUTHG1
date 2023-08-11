@@ -68,3 +68,8 @@ C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\APIStreamingUTHG1.WebAPI.pdb
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\APIStreamingUTHG1.WebAPI.genruntimeconfig.cache
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\ref\APIStreamingUTHG1.WebAPI.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\APIStreamingUTHG1.WebAPI.MvcApplicationPartsAssemblyInfo.cs

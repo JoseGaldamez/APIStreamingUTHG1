@@ -81,6 +81,8 @@ namespace APIStreamingUTHG1.WebAPI.Controllers
                 contenido.TipoContenido = p.TipoContenido;
                 contenido.Titulo = p.Titulo;
                 contenido.Genero = p.Genero;
+                contenido.URLVideo = p.URLVideo;
+                contenido.URLImage = p.URLImage;
                 contenido.YearLanzamiento = p.YearLanzamiento;
                 contenido.Descripcion = p.Descripcion;
                 contenido.Director = p.Director;

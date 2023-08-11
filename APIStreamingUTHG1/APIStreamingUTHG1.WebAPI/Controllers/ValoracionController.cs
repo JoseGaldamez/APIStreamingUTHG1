@@ -21,7 +21,7 @@ namespace APIStreamingUTHG1.WebAPI.Controllers
         [HttpGet]
         public async Task<List<ValoracionesYComentario>> GetValoraciones()
         {
-            return await _db.ValoracionesYComentarios.ToListAsync();
+            return await _db.ValoracionesYComentarios.Where(valoracion => valoracion.Status == "1") .ToListAsync();
         }
 
         // GET: api/Valoracion/5
@@ -75,6 +75,27 @@ namespace APIStreamingUTHG1.WebAPI.Controllers
                 await _db.SaveChangesAsync();
 
                 return actual;
+            }
+            catch (DbUpdateException)
+            {
+                return StatusCode(500, "Se encontró un error");
+            }
+        }
+
+        // PUT: api/Valoracion/5
+        [HttpPost("{id}")]
+        public async Task<ActionResult<ValoracionesYComentario>> UpdateDeleteValoracion(int id)
+        {
+            var valoracion = await _db.ValoracionesYComentarios.FirstOrDefaultAsync(x => x.IdValoracionc == id);
+
+            if (valoracion == null) return NotFound();
+            try
+            {
+                valoracion.Status = "0";
+                _db.ValoracionesYComentarios.Update(valoracion);
+                await _db.SaveChangesAsync();
+
+                return valoracion;
             }
             catch (DbUpdateException)
             {

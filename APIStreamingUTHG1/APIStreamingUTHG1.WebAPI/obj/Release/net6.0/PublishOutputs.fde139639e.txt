@@ -16,9 +16,13 @@ C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Primitives.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Oracle.EntityFrameworkCore.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Oracle.ManagedDataAccess.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\System.Diagnostics.PerformanceCounter.dll
 C:\Users\joseg\OneDrive\Documentos\UTHBD_G1\APIStreamingUTHG1\APIStreamingUTHG1.WebAPI\obj\Release\net6.0\PubTmp\Out\System.DirectoryServices.dll

@@ -308,6 +308,18 @@ public partial class ModelContext : DbContext
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("TITULO");
+            entity.Property(e => e.Titulo)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("TITULO");
+            entity.Property(e => e.URLImage)
+                .HasMaxLength(500)
+                .IsUnicode(false)
+                .HasColumnName("URL_IMAGEN");
+            entity.Property(e => e.URLVideo)
+                .HasMaxLength(500)
+                .IsUnicode(false)
+                .HasColumnName("URL_VIDEO");
             entity.Property(e => e.Genero)
                 .HasMaxLength(100)
                 .IsUnicode(false)

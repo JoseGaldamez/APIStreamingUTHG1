@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services.
 
 var stringConnection = builder.Configuration.GetConnectionString("defaultConnection");
 
@@ -15,18 +15,23 @@ x.UseOracle(
 );
 
 
-// Controladores pendientes
-// Historial, Resumen, ValoracionesYComentario
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configure Cors
+builder.Services.AddCors(policyBuilder =>
+    policyBuilder.AddDefaultPolicy(policy =>
+        policy.WithOrigins("*").AllowAnyHeader().AllowAnyHeader())
+);
+
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseCors();
 
+// Swagger.
 app.UseSwagger();
 app.UseSwaggerUI();
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fh23nUSB5HWI2R3g0hy4CnSXr6dAIhF3nLS/rIBwRMIzNtXZJ/mDnj2XCrGm5spN6g1O5Isi1M8bFj+azS2u6w==",
+  "dgSpecHash": "QlTgfp4eKrpxucK+nSdn7fyt6QKLCOIIkkCp68nkYzvvfDc2Do2XpEQYdtRLbncW4nKSDrlRVVEAowzeTAo/ug==",
   "success": true,
   "projectFilePath": "C:\\Users\\joseg\\OneDrive\\Documentos\\UTHBD_G1\\APIStreamingUTHG1\\APIStreamingUTHG1.DataAccess\\APIStreamingUTHG1.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,10 @@
     "C:\\Users\\joseg\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\joseg\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
     "C:\\Users\\joseg\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
-    "C:\\Users\\joseg\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\joseg\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\joseg\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\joseg\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\joseg\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "apis1": {
-      "apiEndpoint": "https://apistreaminguthg1webapiapi.azure-api.net/streaming-uth-api-db2",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/APIStreamingUTHG1WebAPIapi/apis/APIStreamingUTHG1WebAPI",
-      "type": "apis.azure"
-    }
-  }
-}

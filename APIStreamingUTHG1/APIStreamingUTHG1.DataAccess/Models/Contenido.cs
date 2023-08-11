@@ -20,6 +20,10 @@ namespace APIStreamingUTHG1.DataAccess.Models
 
         public string? Descripcion { get; set; } = null!;
 
+        public string? URLImage { get; set; } = null!;
+
+        public string? URLVideo { get; set; } = null!;
+
         public string? Director { get; set; } = null!;
 
         public string? Duracion { get; set; } = null!;

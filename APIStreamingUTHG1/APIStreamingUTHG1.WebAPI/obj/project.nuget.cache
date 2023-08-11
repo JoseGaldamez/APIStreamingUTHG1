@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QHKOyin91nYtUXm5TN4LzDq7+vIjqo+0XLCNbJiTRAViu0W77SL6SwJpRH6qYnP0igfQ9AkOIts/6iT0P/CVkA==",
+  "dgSpecHash": "fHjk6vjtd7/wcRVkxkfl4d1wgyPBOQXxhWvZicUjItG+RVwIQ+CnIA2Cu2cARywVCAHmNEBtM+c6tUynODTJ/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\joseg\\OneDrive\\Documentos\\UTHBD_G1\\APIStreamingUTHG1\\APIStreamingUTHG1.WebAPI\\APIStreamingUTHG1.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -43,7 +43,11 @@
     "C:\\Users\\joseg\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\joseg\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\joseg\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\joseg\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\joseg\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\joseg\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\joseg\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\joseg\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\joseg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
   ],
   "logs": []
 }
